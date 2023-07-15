@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container {
+            background-color : black;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .left {
+            
+            color: green;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end; /* Align items to the right side */
+        }
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: flex-end; /* Align boxes to the right side within the box container */
+        }
+        .box {
+            height: 100px;
+            width: 300px;
+            background-color:antiquewhite;
+            margin: 10px;
+            padding: 10px;
+        }
+        .right {
+            background-color: blue;
+            margin: 20px;
+            padding: 20px;
+        }
+        .img
+        {
+            height: 100px;
+            width: 100px;
+
+        }
+        .b-img
+        {
+            width: 400px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            
+                <div class="box">
+                    <img src="1.jpg" alt="img" class="img"/>
+                   
+                </div>
+
+                <div class="box">
+                    <img src="2.jpg" alt="img" class="img"/>
+                </div>
+                <div class="box">
+                    <img src="3.jpg" alt="img" class="img"/>
+                </div>
+            
+        </div>
+        <div class="right">
+            <img src="4.jpg" class="b-img">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quidem tempora nemo expedita impedit
+                adipisci ab excepturi perferendis. Explicabo perferendis corrupti fugiat,
+                facere nobis in delectus consectetur dolores iusto?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quidem tempora nemo expedita impedit
+                adipisci ab excepturi perferendis. Explicabo perferendis corrupti fugiat,
+                facere nobis in delectus consectetur dolores iusto?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque quidem tempora nemo expedita impedit
+                adipisci ab excepturi perferendis. Explicabo perferendis corrupti fugiat,
+                facere nobis in delectus consectetur dolores iusto?
+            </p>
+        </div>
+    </div>
+</body>
+</html>
