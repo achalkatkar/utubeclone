@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React from 'react';
 import "./Home.css"
 import i18n from "../../utils/i18n";
 
